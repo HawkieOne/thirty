@@ -29,7 +29,7 @@ A mobile game which is similar to Yatzy. Get the most points in ten rounds. For 
 
 ### Built With
 
-* [Android](https://developer.android.com/)
+* [Java](https://developer.android.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
