@@ -1,0 +1,151 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/darkgrey">
+
+    <!--Get result button-->
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startNewGame"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:theme="@style/AppTheme.Button"
+        android:padding="12dp"
+        android:layout_gravity="top|start"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--Game results-->
+            <TextView
+                android:id="@+id/gameResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/gameResults"
+                android:textColor="@color/cyan"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--Round 1 results-->
+                <TextView
+                    android:id="@+id/round1Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round1Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 2 results-->
+                <TextView
+                    android:id="@+id/round2Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round2Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 3 results-->
+                <TextView
+                    android:id="@+id/round3Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round3Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 4 results-->
+                <TextView
+                    android:id="@+id/round4Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round4Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 5 results-->
+                <TextView
+                    android:id="@+id/round5Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round5Results"
+                    android:textColor="@color/cyan"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--Round 6 results-->
+                <TextView
+                    android:id="@+id/round6Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round6Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 7 results-->
+                <TextView
+                    android:id="@+id/round7Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round7Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 8 results-->
+                <TextView
+                    android:id="@+id/round8Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round8Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 9 results-->
+                <TextView
+                    android:id="@+id/round9Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round9Results"
+                    android:textColor="@color/cyan"/>
+
+                <!--Round 10 results-->
+                <TextView
+                    android:id="@+id/round10Results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="@string/round10Results"
+                    android:textColor="@color/cyan"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--Total score-->
+        <TextView
+            android:id="@+id/totalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="@string/totalScore"
+            android:textColor="@color/cyan"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

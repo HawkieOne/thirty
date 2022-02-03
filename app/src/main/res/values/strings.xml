@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Thirty</string>
+    <string name="description">&#8226; Thirty is a game similar to Yatzy\n
+                               &#8226; The game consists of 10 round with 3 throws each\n
+                               &#8226; Press the question mark while in game to read the rules</string>
+
+    <!--Dices-->
+    <string name="dice1">Dice 1</string>
+    <string name="dice2">Dice 2</string>
+    <string name="dice3">Dice 3</string>
+    <string name="dice4">Dice 4</string>
+    <string name="dice5">Dice 5</string>
+    <string name="dice6">Dice 6</string>
+
+    <!--Game status-->
+    <string name="roundNumber">Round: </string>
+    <string name="throwsLeft">Throws left: </string>
+    <string name="pointsThisRound">points</string>
+
+    <!--Buttons-->
+    <string name="startGame">Start game</string>
+    <string name="throwDice">Throw</string>
+    <string name="result">Get result</string>
+    <string name="nextRound">Next Round</string>
+    <string name="finishGame">Finish game</string>
+    <string name="startNewGame">Start new game</string>
+
+    <!--Rules-->
+    <string name="rules">How to play the game</string>
+    <string name="howToPlay">&#8226; Thirty is a dice game where the player throws six dices in rounds\n
+                             &#8226; In every round the player can make a maximum of three throws\n
+                             &#8226; Press on dices to save them for the next round\n
+                             &#8226; When the result button is pressed the points for that round is
+                             calculated.\n
+                             &#8226; The dices will be colored in the way the points were calculated\n
+                             &#8226; One game consists of ten rounds and a maximum of thirty throws
+                             will be made, hence the name of the game</string>
+
+    <!--Drop-down menu for choose of points type-->
+    <string name="chooseTypeOfPoints">Please choose type of points</string>
+    <string-array name="combinations">
+        <item>Choose type of points</item>
+        <item>Low</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <!--Results-->
+    <string name="gameResults">Game results</string>
+    <string name="round1Results">Round 1: </string>
+    <string name="round2Results">Round 2: </string>
+    <string name="round3Results">Round 3: </string>
+    <string name="round4Results">Round 4: </string>
+    <string name="round5Results">Round 5: </string>
+    <string name="round6Results">Round 6: </string>
+    <string name="round7Results">Round 7: </string>
+    <string name="round8Results">Round 8: </string>
+    <string name="round9Results">Round 9: </string>
+    <string name="round10Results">Round 10: </string>
+    <string name="totalScore">Total score</string>
+</resources>
