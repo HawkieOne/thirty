@@ -16,7 +16,7 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://hawkie.me"><img alt="Screenshot of app" src="img1.png" /></a>
+  <a href="https://hawkie.me"><img alt="Screenshot of app" src="img1.jpg" /></a>
 </div>
 
 
